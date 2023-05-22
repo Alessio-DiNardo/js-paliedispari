@@ -29,5 +29,9 @@ if (userWord == wordReverse){
 }
 
 function reverseWord(word){
-    
+    let poli= "";
+    for (let i = word.length -1; i >= 0; i-- ){
+        poli += word[i]
+    }
+    return poli;
 }
