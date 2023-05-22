@@ -19,3 +19,11 @@
 let userWord = prompt("insert one word");
 
 let wordReverse = reverseWord(userWord);
+
+//creo un if 
+
+if (userWord == wordReverse){
+    console.log("the word is palindroma");
+} else{
+    console.log("the word is not palindroma");
+}
