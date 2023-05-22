@@ -1,4 +1,4 @@
-//Palidroma
+//Palidroma es 1
 //Chiedere all’utente di inserire una parola
 //Creare una funzione per capire se la parola inserita è palindroma
 
@@ -12,3 +12,10 @@
 //Dichiariamo chi ha vinto.
 
 
+// es 1
+
+//CHIEDO ALL'UTENTE DI INSERIRE UNA PAROLA
+
+let userWord = prompt("insert one word");
+
+let wordReverse = reverseWord(userWord);
