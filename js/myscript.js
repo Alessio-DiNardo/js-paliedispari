@@ -20,7 +20,7 @@ let userWord = prompt("insert one word");
 
 let wordReverse = reverseWord(userWord);
 
-//creo un if 
+//CREO UN IF
 
 if (userWord == wordReverse){
     console.log("the word is palindroma");
@@ -28,6 +28,7 @@ if (userWord == wordReverse){
     console.log("the word is not palindroma");
 }
 
+// CREO LA FUNZIONE
 function reverseWord(word){
     let poli= "";
     for (let i = word.length -1; i >= 0; i-- ){
