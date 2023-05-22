@@ -41,11 +41,15 @@ function reverseWord(word){
 //es 2
 // CHIEDERE ALL'UTENTE PARI O DISPARI E IL NUMERO 
 let choice = prompt("Write pari or dispari");
-let numberPlayer= parsInt(prompt("insert your number than 1 a 5"));
+const numberPlayer= prompt("insert your number than 1 a 5");
+
+
 //EVOCO LA FUNZIONE
 let numberCpu = random(1,5);
 let number = console.log(numberCpu);
 let sum = numberPlayer + numberCpu;
+
+
 // CREO LA FUNZIONE
 function random(min, max) {
     min = Math.ceil(min);
@@ -53,10 +57,11 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-//DICHIARO IL PARI E IL DISPARI 
 
+//DICHIARO IL PARI E IL DISPARI 
 if (sum % 2 == 0) {
-    console.log(sum + "è pari");
+    console.log(sum + " è pari ");
 }else{
-    console.log(sum + "è dispari");
+    console.log(sum + " è dispari ");
 }
+
