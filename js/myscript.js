@@ -53,4 +53,10 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+//DICHIARO IL PARI E IL DISPARI 
 
+if (sum % 2 == 0) {
+    console.log(sum + "è pari");
+}else{
+    console.log(sum + "è dispari");
+}
