@@ -36,3 +36,11 @@ function reverseWord(word){
     }
     return poli;
 }
+
+
+//es 2
+
+let choice = prompt("Write pari or dispari");
+let numberPlayer= parsInt(prompt("insert your number than 1 a 5"));
+
+
