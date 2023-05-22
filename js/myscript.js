@@ -27,3 +27,7 @@ if (userWord == wordReverse){
 } else{
     console.log("the word is not palindroma");
 }
+
+function reverseWord(word){
+    
+}
