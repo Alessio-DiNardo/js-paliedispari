@@ -49,6 +49,19 @@ let numberCpu = random(1,5);
 let number = console.log(numberCpu);
 let sum = numberPlayer + numberCpu;
 
+let result = "";
+if ( isEven(sum) ){
+    result = "even"
+} else {
+    result = "odd";
+}
+
+if (result === choice){
+    console.log("player winss");
+} else {
+    console.log("i won");
+}
+
 
 // CREO LA FUNZIONE
 function random(min, max) {
@@ -57,11 +70,12 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-
-//DICHIARO IL PARI E IL DISPARI 
+function isEven (number){
 if (sum % 2 == 0) {
     console.log(sum + " è pari ");
-}else{
-    console.log(sum + " è dispari ");
+    return true;
+}
+    return false;
+    
 }
 
